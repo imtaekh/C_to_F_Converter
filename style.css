@@ -1,0 +1,53 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+header, div{
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  background-color: #e8e8e8;
+}
+header{
+  position: relative;
+  border-bottom: 1px dashed black;
+  height : 150px;
+}
+header h1{
+  position: absolute;
+  margin: 0;
+  width:100%;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom: 20px;
+}
+.result{
+  padding: 20px 0;
+  font-size: 30px;
+}
+.result p{
+  margin: 0;
+}
+input[type="text"]{
+  margin: 5px;
+  height: 20px;
+  width: 50px;
+  font-size: 20px;
+}
+.input{
+  padding-bottom: 20px;
+}
+.input p{
+  margin: 0;
+  font-size: 20px;
+  display: inline-block;
+}
+input[type="button"]{
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 280px;
+  text-align: center;
+  background: #033048;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
